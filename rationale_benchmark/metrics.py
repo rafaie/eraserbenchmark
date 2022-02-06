@@ -15,7 +15,7 @@ import torch
 from scipy.stats import entropy
 from sklearn.metrics import accuracy_score, auc, average_precision_score, classification_report, precision_recall_curve, roc_auc_score
 
-from rationale_benchmark.utils import (
+from utils import (
     Annotation,
     Evidence,
     annotations_from_jsonl,
